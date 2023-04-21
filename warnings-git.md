@@ -1,3 +1,14 @@
+## What is “dangling commit” & “dangling blob” ?
+
+Dangling objects that exist but that are never directly used.
+
+    Dangling blob
+
+A change that made it to the staging area/index but never got committed.
+
+    Dangling commit
+
+A commit that isn’t directly linked to by any child commit, branch, tag or other reference.
 
 ## gc reporting
 
