@@ -24,3 +24,8 @@ $ git fsck
 $ git gc --prune=now
 $ git prune  
 $ git gc
+
+````
+## Git — There are too many unreachable loose objects
+
+https://medium.com/lynns-dev-blog/git-there-are-too-many-unreachable-loose-objects-c2df601b8001
