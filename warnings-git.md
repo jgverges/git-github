@@ -29,7 +29,7 @@ You can delete or get them back.
 git fsck
 ```
 
-- If you gets this result you repo is perfect regarding some git checks:
+- If you gets this result you repo does not have dungling objects:
 
 ```
 Checking object directories: 100% (256/256), done.
@@ -37,7 +37,7 @@ Checking objects: 100% (16396/16396), done.
 ```
  
 
-- If you gets something like this we must to work on that:
+- If you gets something like this you have to handle it:
 
 ```
 dangling blob 91ff5fc4ad27e73cd1937dfda304708d31660956
