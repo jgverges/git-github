@@ -31,10 +31,13 @@ dangling blob 91ff5fc4ad27e73cd1937dfda304708d31660956
 dangling commit 96ffeaa7caefcf649f5b864b516e7314b24cbe8c
 Verifying commits in commit graph: 100% (2603/2603), done.
 ```
- 
+## Get back a single object
 
+Create a new branch form the SHA you want to recover (example: SHA 91ff5fc4)
 
-
+```
+$ git branch recover-branch 91ff5fc4
+```
 
 ### Fixing All Dangling commits
 
