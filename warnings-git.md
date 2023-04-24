@@ -2,7 +2,7 @@
 
 ## Dangling objects in the repository
 
-Dangling objects are issues for git to resolve:
+Dangling object - is the one that's not referenced by anything:
 
 - Dangling blob = A change that made it to the staging area/index, but never got committed. 
 
