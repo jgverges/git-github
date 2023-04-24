@@ -49,7 +49,7 @@ Verifying commits in commit graph: 100% (2603/2603), done.
 
 
 
-### Fixnig Dangling commits
+### Fixing All Dangling commits
 
 https://stackoverflow.com/questions/67630383/git-gc-and-git-prune-warnings-when-git-fetch-origin-is-run
 
