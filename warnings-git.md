@@ -2,14 +2,6 @@
 
 ## Dangling objects in the repository
 
-Dangling objects are issues for git to resolve. 
-
-Dangling blob = A change that made it to the staging area/index, but never got committed. 
-
-Dangling commit = A commit that isn't directly linked to by any child commit, branch, tag or other reference. 
-
-You can delete or get them back.
-
  Sometimes using git  you obtain this message in console
  
 ````
@@ -22,8 +14,16 @@ warning: There are too many unreachable loose objects; run 'git prune' to remove
 ````
 This means you have too many dangling commits for git to automatically clean up.
 
-***
-Verification of basic information about commits and dangling blobs.
+Dangling objects are issues for git to resolve. 
+
+Dangling blob = A change that made it to the staging area/index, but never got committed. 
+
+Dangling commit = A commit that isn't directly linked to by any child commit, branch, tag or other reference. 
+
+You can delete or get them back.
+
+
+### Verification of basic information about commits and dangling blobs.
 
 ```
 git fsck
