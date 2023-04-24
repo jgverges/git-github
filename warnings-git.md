@@ -10,18 +10,6 @@ Dangling objects are issues for git to resolve:
 
 You can delete or get them back.
 
- Sometimes using git  you obtain this message in console
- 
-````
-warning: The last gc run reported the following. Please correct the root cause
-and remove .git/gc.log
-Automatic cleanup will not be performed until the file is removed.
-
-warning: There are too many unreachable loose objects; run 'git prune' to remove them.
-
-````
-This means you have too many dangling commits for git to automatically clean up.
-
 ### Verification of basic information about commits and dangling blobs.
 
 ```
@@ -59,6 +47,21 @@ $ git prune
 $ git gc
 
 ````
+
+ ### Warning: There are too many unreachable loose objects
+ 
+ Sometimes using git  you obtain this message in console
+ 
+````
+warning: The last gc run reported the following. Please correct the root cause
+and remove .git/gc.log
+Automatic cleanup will not be performed until the file is removed.
+
+warning: There are too many unreachable loose objects; run 'git prune' to remove them.
+
+````
+This means you have too many dangling commits for git to automatically clean up.
+
 ## Git — There are too many unreachable loose objects
 
 https://medium.com/lynns-dev-blog/git-there-are-too-many-unreachable-loose-objects-c2df601b8001
