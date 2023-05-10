@@ -1,5 +1,5 @@
 # git-github
-Git and Github informations, tests and docs
+Git and Github informations, Tests and docs
 
 
 ## Errors git
